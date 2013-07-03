@@ -11,6 +11,11 @@ require 'database_cleaner'
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 
 RSpec.configure do |config|
+
+  # If Capybara isn't recognizing your routes and its methods aren't working, uncomment these lines
+  # config.include Capybara::DSL
+  # config.include Rails.application.routes.url_helpers
+
   config.include FactoryGirl::Syntax::Methods
 
   config.before(:suite) do
