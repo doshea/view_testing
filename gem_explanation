@@ -1,0 +1,19 @@
+capybara
+View Testing
+https://github.com/jnicklas/capybara
+
+database_cleaner
+Makes sure there's nothing in your database between tests (otherwise order matters)
+https://github.com/bmabey/database_cleaner
+
+launchy
+Standardized browser launching for view tests
+https://github.com/copiousfreetime/launchy
+
+guard-rspec
+Automatically run tests whenever you change files
+https://github.com/guard/guard-rspec
+
+rb-fsevent
+Allows guard to detect file changes
+https://github.com/thibaudgg/rb-fsevent
