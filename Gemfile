@@ -37,6 +37,7 @@ group :development, :test do
   gem 'rb-fsevent'
 end
 
+#can't be in the test environment because it causes horrible errors
 group :development do
   gem 'better_errors'
 end
